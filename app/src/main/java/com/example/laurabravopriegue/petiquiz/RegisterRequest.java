@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class RegisterRequest extends StringRequest {
 
-    private static final String REGISTER_REQUEST_URL = "http://mfcfund.ml/petiapp/Register.php";
+    private static final String REGISTER_REQUEST_URL = "https://petiapp.000webhostapp.com/Register.php";
     private Map<String, String> params;
 
     public RegisterRequest(String name, String username, int age, String password, Response.Listener<String> listener){
